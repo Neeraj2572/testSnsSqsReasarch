@@ -1,0 +1,19 @@
+{
+    "body": [
+        {
+            "PutRequest": {
+                "Item": {
+                    "ID": {
+                        "S": "86074d2e-3b0f-4773-9cb3-1974c2860b30"
+                    },
+                    "commitMethodCode": {
+                        "S": "01"
+                    },
+                    "Message": {
+                        "S": "hi this is test message"
+                    }
+                }
+            }
+        }
+    ]
+}

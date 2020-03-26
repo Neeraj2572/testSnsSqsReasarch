@@ -1,0 +1,19 @@
+WS::S3::Bucket MySnsTestBucket MySnsTestBucketEDD4D192 
+[+] Custom::S3BucketNotifications MySnsTestBucket/Notifications MySnsTestBucketNotificationsB7C5A288 
+[+] AWS::S3::BucketPolicy MySnsTestBucket/Policy MySnsTestBucketPolicyE0A82705 
+[+] AWS::SNS::Topic TestSnsTopic TestSnsTopic9011E4C7 
+[+] AWS::SNS::TopicPolicy TestSnsTopic/Policy TestSnsTopicPolicy2AC7225E 
+[+] AWS::SQS::Queue TestSnsQueue TestSnsQueue7F18B105 
+[+] AWS::IAM::Role BucketNotificationsHandler050a0587b7544547bf325f094a3db834/Role BucketNotificationsHandler050a0587b7544547bf325f094a3db834RoleB6FB88EC 
+[+] AWS::IAM::Policy BucketNotificationsHandler050a0587b7544547bf325f094a3db834/Role/DefaultPolicy BucketNotificationsHandler050a0587b7544547bf325f094a3db834RoleDefaultPolicy2CF63D36 
+[+] AWS::Lambda::Function BucketNotificationsHandler050a0587b7544547bf325f094a3db834 BucketNotificationsHandler050a0587b7544547bf325f094a3db8347ECC3691 
+[+] AWS::IAM::Role publishFunction/ServiceRole publishFunctionServiceRole779A3536 
+[+] AWS::IAM::Policy publishFunction/ServiceRole/DefaultPolicy publishFunctionServiceRoleDefaultPolicy57B1EA19 
+[+] AWS::Lambda::Function publishFunction publishFunction0955FBF8 
+[+] AWS::Lambda::Permission publishFunction/AllowInvoke:TestSnsStackTestSnsTopic6FE2D72A publishFunctionAllowInvokeTestSnsStackTestSnsTopic6FE2D72ADB7195A5 
+[+] AWS::SNS::Subscription publishFunction/TestSnsTopic publishFunctionTestSnsTopic65BA5569 
+[+] AWS::DynamoDB::Table newtable newtable1740D5CF 
+[+] AWS::IAM::Role subscribeFunction/ServiceRole subscribeFunctionServiceRoleE1E26A6E 
+[+] AWS::IAM::Policy subscribeFunction/ServiceRole/DefaultPolicy subscribeFunctionServiceRoleDefaultPolicyA1C1D645 
+[+] AWS::Lambda::Function subscribeFunction subscribeFunction1FA97757 
+[+] AWS::Lambda::EventSourceMapping subscribeFun
